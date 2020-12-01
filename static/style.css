@@ -1,0 +1,8 @@
+:root {
+	--purpre: #818CF8;
+	--white: #EEF2FF;
+	--grey: #64748B;
+	--grey-dark: #334155;
+	--black: #0F172A;
+	--gradient: linear-gradient(120deg, #64748B 0%, #0F172A 80%);
+}
