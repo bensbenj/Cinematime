@@ -3,7 +3,7 @@
     "build": {
         "env": {
             "TMDB_KEY": "TMDB_KEY",
-            "secret": "@TMDB_KEY"
+            "SECRET": "@TMDB_KEY"
         }
     },
     "builds": [{"src": "package.json","use": "@now/static-build"}]
