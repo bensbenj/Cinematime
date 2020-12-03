@@ -1,12 +1,10 @@
 {
     "version": 2,
-    "builds": [{
-        "src": "package.json",
-        "use": "@now/static-build"
-    }],
     "build": {
         "env": {
-            "TMDB_KEY": "@TMDB_KEY"
+            "TMDB_KEY": "TMDB_KEY",
+            "secret": "@TMDB_KEY"
         }
-    }
+    },
+    "builds": [{"src": "package.json","use": "@now/static-build"}]
 }
