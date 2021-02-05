@@ -46,5 +46,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  env: {
+    TMDB_KEY: process.env.TMDB_KEY
   }
+
 }
