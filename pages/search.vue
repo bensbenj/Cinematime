@@ -8,7 +8,6 @@
 			@keyup="find(query)" 
 			v-model="query"
 		>
-
 		<div id="deck-movie">
 			<Card 
 				:mediaType="cinema.media_type"
