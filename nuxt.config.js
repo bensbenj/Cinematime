@@ -7,7 +7,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -49,6 +50,5 @@ export default {
 
   env: {
     TMDB_KEY: process.env.TMDB_KEY
-  }
-
+  },
 }
