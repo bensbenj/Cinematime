@@ -4,9 +4,9 @@
             <h1 class="bg-clip-text text-transparent bg-gradient-to-tr bg-gradient-from-bl to-purple-500 from-indigo-500 uppercase">cinematime</h1>
 
             <ul>
-                <li>🖥️ Platform de bande annonce de films & serie Tv</li> <br>
-                <li>⏱️ Le meilleur moyen de trouver rapidement un films</li> <br>
-                <li>⚡ Simple & rapide</li> <br>
+                <li>🖥️ Platforme de bandes annonces</li> <br>
+                <li>⏱️ Trouver rapidement votre film / serie TV</li> <br>
+                <li>⚡ Intuitif & rapide</li> <br>
                 <li>✅ 100% gratuit</li>
             </ul>
         </div>
