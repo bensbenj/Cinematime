@@ -5,7 +5,7 @@
 		@mouseover="showNav()"
 	>
 		<div id="navigation-icons">
-			<nuxt-link to="/" class="items-sidebar">
+			<nuxt-link to="/home" class="items-sidebar">
 				<img
 					src="@/assets/icons/home.svg"
 					alt="home icon"
@@ -31,7 +31,7 @@
 		<div id="navigation-links" v-show="!mediaType">
 			<transition-group name="fade">
 				<div v-show="showLinks && showSidebar" class="links" key="1">
-					<nuxt-link class="items-links" to="/">Home</nuxt-link>
+					<nuxt-link class="items-links" to="/home">Home</nuxt-link>
 				</div>
 				<div v-show="showLinks && showSidebar" class="links" key="2">
 					<nuxt-link class="items-links" to="/movie">Movies</nuxt-link>
