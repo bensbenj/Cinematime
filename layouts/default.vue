@@ -20,7 +20,7 @@ import { mapGetters } from "vuex"
 
 
 export default {
-  name: "App",
+  	name: "App",
 
 	components: {
 		Sidebar,

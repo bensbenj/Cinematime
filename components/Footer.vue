@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<a href="https://bensbenj.github.io/portfolio" target="_blank" ref="noopener" >
+		<a href="https://bensbenj.github.io/portfolio" target="_blank" rel="noopener" >
 			Benyamin benshabat
 		</a>
 		| Copyright &#9400; {{new Date().getFullYear()}} Cinematime
